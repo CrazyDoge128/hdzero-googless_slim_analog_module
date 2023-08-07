@@ -1,6 +1,6 @@
 
 This project is a fork of [rx5808-pro-diversity
-](https://github.com/sheaivey/rx5808-pro-diversity) .
+](https://github.com/sheaivey/rx5808-pro-diversity).
 
 
 # Table of Contents
@@ -19,22 +19,12 @@ This project is a fork of [rx5808-pro-diversity
 - **Search Mode** - Search next channel based on RSSI
 - **Band Scanner** - Print spectrum of all 48 channels
 - **Auto Save** - Saves settings after a few seconds of inactivity.
-- **Beeper** - Acoustic feedback on important actions
 - **RSSI Graph** - Running history of RSSI readings.
-- **Diversity** - Receiver select and monitor.
 - **Led Status** - Power, button pressed, active antenna.
 - **Race Band & L-Band** - Total of 48 supported channels.
-- **Backward Compatibility** - Use this code with your existing setup.
-- **OLED Display** - Use a 128x64 OLED.
 - **Setup Menu** - Creating changing settings (RSSI Calibration).
 
 # Overview
-Please watch the following video giving a detailed overview of the latest v2.0 release.
-
-<p align="center">
-    <a href="https://www.youtube.com/watch?v=PRY-XF2qSRU"><img src="https://img.youtube.com/vi/PRY-XF2qSRU/0.jpg"></a>
-</p>
-
 1. **Auto Scan** - Scans all bands until a signal with good signal strength is found.
 2. **Manual Mode** - Will hold on a manually selected channel.
 3. **Band Scanner** - Scans all bands and presents them with a signal strength bar graph.
@@ -47,32 +37,10 @@ When powering on for the first time it is best to calibrate your RSSI modules. N
 
 1. Go to the settings menu and follow the calibrate RSSI steps on the screen.
 
-# Hardware
-#### Manufactured
-If you are not looking to build your own hardware you can purchase manufactured versions from the following companies.
-
-1. **[La Forge FPV](http://www.laforgefpv.com/vrx-pro)** - VRX-PRO
-  - Designed by Shea Ivey
-  - All Current Hardware versions.
-2. Realacc - rx5808-pro-diversity
-  - All current hardware versions.
-3. FuriousFPV - True-D
-  - V2.0 and earlier
-
 #### DIY
 
-This project is centered around the RX5808 5.8GHz receiver module which can be found at a number of online stores. The original rx5808-pro schematic has been modified to incorporate the diversity setup. Additional LEDs have also been added to show the active receiver.
+This project is centered around the RX5808 5.8GHz receiver module which can be found at a number of online stores. The original rx5808-pro-diversity schematic has been modified to incorporate the diversity setup. Additional LEDs have also been added to show the active receiver.
 
-![diversity simple schematic](docs/img/rx5808-pro-diversity-schematic-simple.jpg)
-
-For more information on specific hardware implementations:
-
-1. [DIY Simple - Arduino Nano](/docs/diy-arduino-nano.md)
-1. [DIY Intermediate - Custom Board (T-Box)](/docs/diy-through-hole-board.md)
-2. [DIY Advanced - Custom Board](/docs/diy-custom-board.md)
-1. [OLED Version - Arduino Nano](/docs/oled-arduino-nano.md)
-3. [rx5808 SPI modification](/docs/rx5808-spi-mod.md)
-6. [Voltage Monitoring](/docs/voltage-monitoring.md)
 
 # Firmware
 The firmware is constantly being improved please refer to the release history for more detailed information on improvements.
