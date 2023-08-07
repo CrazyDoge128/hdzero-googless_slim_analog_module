@@ -1,12 +1,7 @@
-# ![Logo](media/logo.png)
 
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/rx5808-pro-diversity/)
+This project is a fork of [rx5808-pro-diversity
+](https://github.com/sheaivey/rx5808-pro-diversity) .
 
-This project is a fork of [rx5808-pro](https://code.google.com/p/rx5808-pro/) with support for diversity and much more.
-
-Manufactured version of this project can be found at [La Forge FPV](http://www.laforgefpv.com)
-
-The code is also backward compatible with the original rx5808-pro schematic minus diversity, dip switch mode and TV_Out. For details on updating click [here](/docs/diy-arduino-nano.md).
 
 # Table of Contents
 1. [Releases](#releases)
@@ -17,9 +12,6 @@ The code is also backward compatible with the original rx5808-pro schematic minu
 6. [Contributing](#contributing)
 7. [License](#license)
 
-
-# Releases
-The latest release can be found here. [Latest Releases](https://github.com/sheaivey/rx5808-pro-diversity/releases)
 
 # Features
 - **User control** - 3 Button navigation, up, down, select.
