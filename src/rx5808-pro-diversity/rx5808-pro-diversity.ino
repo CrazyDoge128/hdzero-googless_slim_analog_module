@@ -45,6 +45,7 @@ SOFTWARE.
 
 #include "ui.h"
 
+#include "Arduino.h"
 
 static void globalMenuButtonHandler(
     Button button,

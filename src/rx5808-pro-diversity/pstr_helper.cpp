@@ -1,5 +1,6 @@
 #include "pstr_helper.h"
-#include <avr/pgmspace.h>
+#include <pgmspace.h>
+#include "Arduino.h"
 
 char PSTR2_BUFFER[PSTR2_BUFFER_SIZE];
 

@@ -3,7 +3,7 @@
 
 
 #include <stdint.h>
-#include <avr/pgmspace.h>
+#include <pgmspace.h>
 
 #include "settings.h"
 #include "settings_internal.h"

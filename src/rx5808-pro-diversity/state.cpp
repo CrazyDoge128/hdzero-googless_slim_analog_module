@@ -14,10 +14,18 @@
 
 #include "timer.h"
 
+#include "Arduino.h"
 
-void *operator new(size_t size, void *ptr){
+/*
+void *operator new(size_t size, void *ptr) {
   return ptr;
 }
+
+nevim co to je ale psalo to:
+Compilation error: redefinition of 'void* operator new(size_t, void*)'
+wtf
+ale komentovani to spravilo
+*/
 
 #define MAX(a, b) (a > b ? a : b)
 #define STATE_BUFFER_SIZE \

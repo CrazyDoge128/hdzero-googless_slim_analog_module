@@ -1,6 +1,7 @@
 #ifndef CHANNELS_H
 #define CHANNELS_H
 
+#include "Arduino.h"
 
 #include "settings.h"
 

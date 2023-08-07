@@ -1,7 +1,7 @@
 #ifndef PSTR_HELPER_H
 #define PSTR_HELPER_H
 
-#include <avr/pgmspace.h>
+#include <pgmspace.h>
 
 // Modified PSTR that pushes string into a char* buffer for easy use.
 //

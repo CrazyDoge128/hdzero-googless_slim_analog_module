@@ -70,7 +70,7 @@ SOFTWARE.
 //
 // =============================================================================
 
-#define USE_DIVERSITY
+//#define USE_DIVERSITY
 
 // Enable this to switch receivers much faster. This uses the port registers
 // to switch rather than the Arduino helper functions.
@@ -107,22 +107,23 @@ SOFTWARE.
 // === Pins ====================================================================
 
 // Buttons (required)
-#define PIN_BUTTON_UP 2
-#define PIN_BUTTON_MODE 3
+#define PIN_BUTTON_UP D1
+#define PIN_BUTTON_MODE D2
 
 // Buttons (optional, for comfort)
-#define PIN_BUTTON_DOWN 4
-#define PIN_BUTTON_SAVE 5
+#define PIN_BUTTON_DOWN D3
+#define PIN_BUTTON_SAVE 6
 
-#define PIN_LED 13
-#define PIN_BUZZER 6 // Must be an active buzzer, not passive.
+#define PIN_LED 12
+#define PIN_BUZZER 13 // Must be an active buzzer, not passive.
 
-#define PIN_SPI_DATA 10
-#define PIN_SPI_SLAVE_SELECT 11
-#define PIN_SPI_CLOCK 12
+#define PIN_SPI_DATA D8
+#define PIN_SPI_SLAVE_SELECT D10
+#define PIN_SPI_CLOCK D9
 
-#define PIN_RSSI_A A6
-#define PIN_LED_A A0
+#define PIN_RSSI_A A0
+#define PIN_LED_A 14
+
 #ifdef USE_DIVERSITY
     #define PIN_LED_B A1
     #define PIN_RSSI_B A7
